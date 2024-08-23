@@ -2,6 +2,13 @@
 
 # be new
 apt-get update
+apt-get upgrade
+
+sudo apt-get remove --purge ubuntu-desktop ubuntu-desktop-minimal
+sudo apt-get autoremove
+sudo apt-get remove nautilus nautilus-* gnome-power-manager gnome-screensaver gnome-termina* gnome-pane* gnome-applet* gnome-bluetooth gnome-desktop* gnome-sessio* gnome-user* gnome-shell-common zeitgeist-core libzeitgeist* gnome-control-center gnome-screenshot && sudo apt-get autoremove
+
+
 
 # get software
 apt-get install \

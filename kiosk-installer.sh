@@ -60,6 +60,9 @@ cat > /home/kiosk/.config/openbox/autostart << EOF
 #!/bin/bash
 
 xset dpms force on
+xset -dpms s off
+xset s off
+
 gsettings set org.gnome.desktop.session idle-delay 0
 
 unclutter -idle 0.1 -grab -root &

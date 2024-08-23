@@ -2,7 +2,7 @@
 
 # be new
 apt-get update
-apt-get upgrade
+apt-get upgrade -y
 
 sudo apt-get remove --purge ubuntu-desktop ubuntu-desktop-minimal
 sudo apt-get autoremove

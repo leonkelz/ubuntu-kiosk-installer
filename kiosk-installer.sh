@@ -7,7 +7,7 @@ apt-get update
 apt-get install \
 	unclutter \
     xorg \
-    chromium \
+    chromium-browser \
     openbox \
     lightdm \
     locales \
@@ -67,7 +67,7 @@ do
     --disable-save-password-bubble \
     --disable-session-crashed-bubble \
     --incognito \
-    --kiosk "https://neave.tv/"
+    --kiosk "http://192.168.200.2/schueler.php"
   sleep 5
 done &
 EOF

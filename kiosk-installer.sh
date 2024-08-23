@@ -72,4 +72,6 @@ do
 done &
 EOF
 
+sudo apt remove gnome-screensaver
+
 echo "Done!"

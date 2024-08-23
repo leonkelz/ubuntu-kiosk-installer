@@ -74,6 +74,7 @@ do
     --disable-save-password-bubble \
     --disable-session-crashed-bubble \
     --incognito \
+    --disable-features=Translate \
     --kiosk "http://192.168.200.2/schueler.php"
   sleep 5
 done &
